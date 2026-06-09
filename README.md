@@ -1,4 +1,5 @@
-**The following is a prototype, reference implementation, and proof-of-concept. This open source code is provided for research, experimentation, and developer education only. This code has not been audited, is actively experimental, and may contain bugs, vulnerabilities, or incomplete features. Use at your own risk.**
+> [!WARNING]
+> The following is a prototype, reference implementation, and proof-of-concept. This open source code is provided for research, experimentation, and developer education only. This code has not been audited, is actively experimental, and may contain bugs, vulnerabilities, or incomplete features. Use at your own risk.
 
 # Mercado
 
@@ -120,7 +121,14 @@ See `docs/` for detailed business logic documentation including entity definitio
 
 ## Security
 
-See [SECURITY.md](./SECURITY.md) for security policy and vulnerability reporting.
+Before deploying for real use cases, you are responsible for:
+
+- Reviewing the code yourself — we publish a reference, not a hardened production build
+- Checking that dependencies are up to date and free of known vulnerabilities
+- Securing your own fork or deployment environment (keys, secrets, network configuration)
+- Tracking the latest tagged releases/commits for security fixes; older releases are not backported (exceptions might apply)
+
+For Parity's security disclosure process and Bug Bounty program, visit: https://parity.io/bug-bounty
 
 ## License
 
